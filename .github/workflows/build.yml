@@ -25,7 +25,7 @@ jobs:
       run: ./gradlew buildCs3
 
     - name: Upload CS3 file
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: MyWordPressProvider
         path: build/libs/MyWordPressProvider.cs3
